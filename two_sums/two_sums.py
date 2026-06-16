@@ -38,3 +38,15 @@ def two_sum(taskDurations: List[int], slotLength: int) -> List[int]:
 
     # If the loop finishes without finding a pair, return [-1, -1].
     return [-1, -1]
+
+
+
+
+if __name__ == "__main__":
+    taskDurations = [2, 7, 11, 15] 
+    slotLength = 9
+    
+    result = two_sum(taskDurations,slotLength)
+    
+    print(result)
+    
